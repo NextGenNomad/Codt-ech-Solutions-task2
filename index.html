@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--font awesome link ------>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!--stylesheet link ---->
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="stylesheet/swiper-bundle.min.css">
+</head>
+<body>
+    <!--header section ------>
+    <div class="navbar__container">
+        <div class="container">
+            <header>
+                <!--showcase nav ----->
+                <nav class="navbar">
+                        <!--logo ----->
+                        <div class="logo">
+                            <a href="index.html">SyncWave<span>Home</span></a>
+                        </div>
+                        <!--end logo ----->
+                        <ul>
+                            <i class="fa-solid fa-x" id="remove__navbar"></i>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#!">Service</a></li>
+                            <li><a href="#!">Projects</a></li>
+                            <li><a href="#!">About Us</a></li>
+                            <li><a href="#!">Blog</a></li>
+                            <li><a href="#!">Contact Us</a></li>
+                            <li><a href="#!"><i class="fa-solid fa-search"></i></a></li>
+                            <a href="#!" class="btn__primary sign2" id="signInBtn2">Get Started</a>
+                        </ul>
+                        <!--button get started ------>
+                        <i class="fa-solid fa-bars" id="show__navbar"></i>
+                        <a href="#!" class="btn__primary sign" id="signInBtn">Get Started</a>
+                        <div class="sign_card">
+                           <i id="closeSignInBtn" class="fa-solid fa-x"></i>
+                            <span>Login</span>
+                            <form action="#!" method="POST" autocomplete="off">
+                                <p class="card__input">
+                                    <input type="email" name="email" placeholder="Email Address">
+                                </p>
+                                <p class="card__input password">
+                                    <input type="password" name="password" placeholder="Password">
+                                    <i id="eye" class="fa-solid fa-eye"></i>
+                                </p>
+                                <p class="card__input">
+                                    <a href="#!">Forgot password?</a>
+                                </p>
+                                <p class="card__input">
+                                    <input type="submit" value="Login" name="login">
+                                </p>
+                                 <span class="or">Or</span>
+                                 <p class="card__input member">
+                                    <span>Not member? <a href="#!">Register</a></span>
+                                </p>
+                            </form>
+                        </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+   
+    <div class="hero__section">
+   <!--showcase image ------>
+         <div class="img__container">
+            <img src="assets/img/p9.jpg" alt="showcase image">
+            <div class="overlay"></div>
+        </div>
+        <div class="container">
+            <div class="showcase__content">
+                <!--showcase text-->
+                <h3>Welcome To SyncWave Home</h3>
+                <h1 class="hero__header">Your Gateway to Smart Living</h1>
+                <p>Discover the Future of Home Automation with SyncWave's Cutting Edge Technology</p>
+                <a href="#!" class="btn__primary">Discover more</a>
+                <a href="#!" class="btn__secondary">Get Started</a>
+            </div>
+        </div>
+        <!--showcase content ----->
+    </div>
+      
+   <!--button top up-->
+   <div id="backToTopBtn" class="progress">
+     <a href="#!" class="progress__value"><i class="fa-solid fa-arrow-up"></i></a>
+   </div>
+
+   <!--hotline section ----->
+   <section class="key__features">
+     <div class="container">
+        <div class="left anim1">
+            <h2>Key</h2>
+            <h2>Features</h2>
+        </div>
+        <div class="right">
+            <div class="card one anim1">
+                <div class="icon"><i class="fa-solid fa-gears"></i></div>
+                <span>Personalized Settings</span>
+                <p>Customize settings for individual users or specific rooms to suit preferences and maximize comfort.</p>
+            </div>
+            <div class="card two anim1">
+                <div class="icon"><i class="fa-solid fa-shield-alt"></i></div>
+                <span>Smart Security</span>
+                <p>Enhance home security with real-time alerts, motion detection, and remote monitoring capabilities.</p>
+            </div>
+            <div class="card three anim1">
+                <div class="icon"><i class="fa-solid fa-leaf"></i></div>
+                <span>Energy Efficiency</span>
+                <p>Optimize energy usage and reduce bills with smart schedulling and energy monitoring features.</p>
+            </div>
+        </div>
+     </div>
+   </section>
+
+   <!--about us ----->
+   <section class="about__us__section">
+    <div class="container">
+        <!--about us content-->
+        <div class="left__content translateX1">
+            <h3 class="sub__header">About Us</h3>
+            <h1 class="section__header">Empowering Homes Through Innovations: Our Story at SyncWaveHome </h1>
+            <p>Lorem lorem lorem Epsom  nsil consicture auctor maximum at lorem Epsom  nsil consicture auctor maximum at lorem Epsom  nsil consicture auctor maximum at lor.Lorem ipsum dolor sit amet. Et dolor numquam Lorem ipsum dolor sit amet. </p>
+            <a href="#!" class="btn__primary">Discover more</a>
+        </div>
+
+        <div class="right__content translateX2">
+             <div class="img__container">
+                <img src="assets/img/p15.jpg" alt="about us img">
+             </div>
+        </div>
+    </div>
+   </section>
+
+   <!--call to action  section ----->
+   <section class="call__to__action__section">
+    <div class="container">
+        <div class="c__text__content">
+            <h1 class="section__header translateY">Get Started Today : Your Smart Home Journey  Begins</h1>
+            <p class="translateY">Lorem lorem lorem Epsom  nsil consicture auctor maximum at lorem Epsom</p>
+            <a href="#!" class="btn__secondary translateY">Get started</a>
+        </div>
+    </div>
+   </section>
+
+   <!--our service section ----->
+   <secton class="service__section">
+    <div class="container">
+        <!--content ----->
+        <div class="service__content">
+            <!--left content ------->
+            <div class="left__content translateX1">
+                <h3 class="sub__header">Our Service</h3>
+                <h1 class="section__header">Experience Intelligent Living: SyncWaveHome Service</h1>
+                <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.875 34.875">
+                        <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M35.438,18A17.438,17.438,0,1,1,18,.563,17.437,17.437,0,0,1,35.438,18ZM15.983,27.233,28.921,14.3a1.125,1.125,0,0,0,0-1.591L27.33,11.114a1.125,1.125,0,0,0-1.591,0L15.188,21.665l-4.926-4.926a1.125,1.125,0,0,0-1.591,0L7.079,18.329a1.125,1.125,0,0,0,0,1.591l7.313,7.313a1.125,1.125,0,0,0,1.591,0Z" transform="translate(-0.563 -0.563)" fill="#0067ce"/>
+                    </svg>
+                    SmartHome Automation Installation</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.875 34.875">
+                        <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M35.438,18A17.438,17.438,0,1,1,18,.563,17.437,17.437,0,0,1,35.438,18ZM15.983,27.233,28.921,14.3a1.125,1.125,0,0,0,0-1.591L27.33,11.114a1.125,1.125,0,0,0-1.591,0L15.188,21.665l-4.926-4.926a1.125,1.125,0,0,0-1.591,0L7.079,18.329a1.125,1.125,0,0,0,0,1.591l7.313,7.313a1.125,1.125,0,0,0,1.591,0Z" transform="translate(-0.563 -0.563)" fill="#0067ce"/>
+                    </svg>
+                    Energy-Efficienct Solutions</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.875 34.875">
+                        <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M35.438,18A17.438,17.438,0,1,1,18,.563,17.437,17.437,0,0,1,35.438,18ZM15.983,27.233,28.921,14.3a1.125,1.125,0,0,0,0-1.591L27.33,11.114a1.125,1.125,0,0,0-1.591,0L15.188,21.665l-4.926-4.926a1.125,1.125,0,0,0-1.591,0L7.079,18.329a1.125,1.125,0,0,0,0,1.591l7.313,7.313a1.125,1.125,0,0,0,1.591,0Z" transform="translate(-0.563 -0.563)" fill="#0067ce"/>
+                    </svg>
+                    Sercurity and Surveillance Intergration</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.875 34.875">
+                        <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M35.438,18A17.438,17.438,0,1,1,18,.563,17.437,17.437,0,0,1,35.438,18ZM15.983,27.233,28.921,14.3a1.125,1.125,0,0,0,0-1.591L27.33,11.114a1.125,1.125,0,0,0-1.591,0L15.188,21.665l-4.926-4.926a1.125,1.125,0,0,0-1.591,0L7.079,18.329a1.125,1.125,0,0,0,0,1.591l7.313,7.313a1.125,1.125,0,0,0,1.591,0Z" transform="translate(-0.563 -0.563)" fill="#0067ce"/>
+                    </svg>
+                    Customized Smart Living Consultation</li>
+                </ul>
+             <a href="#!" class="btn__primary">Learn more</a>
+            </div>
+            <!--right content -------->
+            <div class="right__content">
+                <p class="translateX2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="content__wrapper">
+                    <div class="img__container">
+                        <img  class="translateX2" src="assets/img/p16.jpg" alt="img">
+                    </div>
+                    <div class="pulsing__play__btn translateX2">
+                        <div class="second__pulse"></div>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="experience translateY">
+                        <span>10+</span>
+                        <h3>Years of Experience</h3>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <!---content end ----------->
+    </div>
+   </secton>
+
+   <!--what we offer section ------>
+   <section class="offer__section">
+        <h3 class="sub__header">What we offer</h3>
+        <h1 class="section__header">Discover SyncWaveHome's Innovative Offerings</h1>
+        <div class="silder__container swiper">
+                <div class="swiper-wrapper">
+                    <!-- slider box ----------->
+                    <div class="slider__box swiper-slide anim1">
+                        <div class="img__container">
+                            <img src="assets/img/p14.jpg" alt="">
+                        </div>
+                        <div class="content__box">
+                            <span>Home Automation</span>
+                            <p>Lorem lorem lorem Epsom  nsil consicture auctor rem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <div>
+                                <a href="">Learn more <i class="fa-solid fa-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slider box ----------->
+                    <div class="slider__box swiper-slide anim1">
+                        <div class="img__container">
+                            <img src="assets/img/p20.jpg" alt="">
+                        </div>
+                        <div class="content__box">
+                            <span>Smart Speakers</span>
+                            <p>Lorem lorem lorem Epsom  nsil consicture auctor rem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <div>
+                                <a href="">Learn more <i class="fa-solid fa-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slider box ----->
+                    <div class="slider__box swiper-slide anim1">
+                        <div class="img__container">
+                            <img src="assets/img/p7.jpg" alt="">
+                        </div>
+                        <div class="content__box">
+                            <span>Robot Vacuums</span>
+                            <p>Lorem lorem lorem Epsom  nsil consicture auctor rem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <div>
+                                <a href="">Learn more <i class="fa-solid fa-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination pagination__container"></div>
+        </div>
+   </section>
+   <!-- our value  section ---------->
+   <section class="our__value__section">
+        <div class="container">
+            <div class="left__content translateX1">
+                <h3 class="sub__header">Our Value</h3>
+                <h1 class="section__header">Empowering Homes with Innovation and Connectivity</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima beatae at neque eius dolores amet id asperiores, optio dolorem.</p>
+                <a href="#!" class="btn__primary">Discover more</a>
+            </div>
+            
+            <div class="right__content">
+                <!-- our vision -------->
+                <div class="box our__vision translateY">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="42.786" height="62.235" viewBox="0 0 42.786 62.235">
+                            <path id="Icon_awesome-lightbulb" data-name="Icon awesome-lightbulb" d="M11.676,55.226a3.891,3.891,0,0,0,.652,2.15L14.4,60.5a3.888,3.888,0,0,0,3.238,1.736h7.5A3.888,3.888,0,0,0,28.382,60.5l2.077-3.123a3.888,3.888,0,0,0,.652-2.15l0-4.661H11.67ZM0,21.393A21.274,21.274,0,0,0,5.295,35.466a34.931,34.931,0,0,1,6.346,11.116c0,.032.009.063.013.095H31.131c0-.032.009-.062.013-.095a34.931,34.931,0,0,1,6.346-11.116A21.388,21.388,0,1,0,0,21.393Zm21.393-9.724a9.735,9.735,0,0,0-9.724,9.724,1.945,1.945,0,0,1-3.89,0A13.629,13.629,0,0,1,21.393,7.779a1.945,1.945,0,0,1,0,3.89Z" transform="translate(0 0)" fill="#fff"/>
+                          </svg>
+                    </div>
+                    <span>Our Vision</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis ea unde beatae possimus! Maiores. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet  dolorem.</p>
+                </div>
+                <!-- our vision -------->
+                <div class="box our__mission translateY">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="68.113" height="68.113" viewBox="0 0 68.113 68.113">
+                            <path id="Icon_awesome-bullseye" data-name="Icon awesome-bullseye" d="M34.056.563A34.056,34.056,0,1,0,68.113,34.619,34.056,34.056,0,0,0,34.056.563Zm0,59.324A25.268,25.268,0,1,1,59.324,34.619,25.254,25.254,0,0,1,34.056,59.886Zm0-42.845A17.577,17.577,0,1,0,51.634,34.619,17.578,17.578,0,0,0,34.056,17.041Zm0,26.366a8.789,8.789,0,1,1,8.789-8.789A8.8,8.8,0,0,1,34.056,43.407Z" transform="translate(0 -0.563)" fill="#fff"/>
+                          </svg>                          
+                    </div>
+                     <span>Our Mission</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis ea unde beatae possimus! Maiores. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet  dolorem.</p>
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <!--easy to control section --------->
+   <section class="control__section">
+      <div class="content__container">
+            <div class="img__container translateX1">
+                <img src="assets/img/p11.jpeg" alt="">
+            </div>
+                <div class="right__content translateX2">
+                    <h3 class="sub__header">Easy To Control</h3>
+                    <h1 class="section__header">Simplify Your Life:Intuitive Control with SyncWave</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptates veritatis mollitia nostrum sit laboriosam!</p>
+                    <ul>
+                        <li>
+                            <div class="discription">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="50.961" height="50.961" viewBox="0 0 50.961 50.961">
+                                    <g id="Icon_ionic-ios-checkmark-circle-outline" data-name="Icon ionic-ios-checkmark-circle-outline" transform="translate(-3.375 -3.375)">
+                                    <path id="Path_9" data-name="Path 9" d="M36.674,14.571l-2.156-2.217a.464.464,0,0,0-.343-.147h0a.445.445,0,0,0-.343.147L18.887,27.409,13.448,21.97a.474.474,0,0,0-.686,0L10.581,24.15a.488.488,0,0,0,0,.7l6.86,6.86a2.17,2.17,0,0,0,1.433.7,2.273,2.273,0,0,0,1.421-.674h.012L36.687,15.269A.524.524,0,0,0,36.674,14.571Z" transform="translate(5.24 6.555)" fill="#0067ce"/>
+                                    <path id="Path_10" data-name="Path 10" d="M28.856,6.805A22.054,22.054,0,0,1,44.45,44.45,22.054,22.054,0,0,1,13.261,13.261,21.9,21.9,0,0,1,28.856,6.805m0-3.43A25.481,25.481,0,1,0,54.336,28.856,25.477,25.477,0,0,0,28.856,3.375Z" transform="translate(0 0)" fill="#0067ce"/>
+                                    </g>
+                                </svg>
+                                <span>Smart Lighting Solutions</span>
+                                <span class="text-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, esse?</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="discription">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50.961" height="50.961" viewBox="0 0 50.961 50.961">
+                                    <g id="Icon_ionic-ios-checkmark-circle-outline" data-name="Icon ionic-ios-checkmark-circle-outline" transform="translate(-3.375 -3.375)">
+                                    <path id="Path_9" data-name="Path 9" d="M36.674,14.571l-2.156-2.217a.464.464,0,0,0-.343-.147h0a.445.445,0,0,0-.343.147L18.887,27.409,13.448,21.97a.474.474,0,0,0-.686,0L10.581,24.15a.488.488,0,0,0,0,.7l6.86,6.86a2.17,2.17,0,0,0,1.433.7,2.273,2.273,0,0,0,1.421-.674h.012L36.687,15.269A.524.524,0,0,0,36.674,14.571Z" transform="translate(5.24 6.555)" fill="#0067ce"/>
+                                    <path id="Path_10" data-name="Path 10" d="M28.856,6.805A22.054,22.054,0,0,1,44.45,44.45,22.054,22.054,0,0,1,13.261,13.261,21.9,21.9,0,0,1,28.856,6.805m0-3.43A25.481,25.481,0,1,0,54.336,28.856,25.477,25.477,0,0,0,28.856,3.375Z" transform="translate(0 0)" fill="#0067ce"/>
+                                    </g>
+                                </svg>
+                                <span>Climate Control Systems</span>
+                                <span class="text-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, esse?</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="discription">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50.961" height="50.961" viewBox="0 0 50.961 50.961">
+                                    <g id="Icon_ionic-ios-checkmark-circle-outline" data-name="Icon ionic-ios-checkmark-circle-outline" transform="translate(-3.375 -3.375)">
+                                    <path id="Path_9" data-name="Path 9" d="M36.674,14.571l-2.156-2.217a.464.464,0,0,0-.343-.147h0a.445.445,0,0,0-.343.147L18.887,27.409,13.448,21.97a.474.474,0,0,0-.686,0L10.581,24.15a.488.488,0,0,0,0,.7l6.86,6.86a2.17,2.17,0,0,0,1.433.7,2.273,2.273,0,0,0,1.421-.674h.012L36.687,15.269A.524.524,0,0,0,36.674,14.571Z" transform="translate(5.24 6.555)" fill="#0067ce"/>
+                                    <path id="Path_10" data-name="Path 10" d="M28.856,6.805A22.054,22.054,0,0,1,44.45,44.45,22.054,22.054,0,0,1,13.261,13.261,21.9,21.9,0,0,1,28.856,6.805m0-3.43A25.481,25.481,0,1,0,54.336,28.856,25.477,25.477,0,0,0,28.856,3.375Z" transform="translate(0 0)" fill="#0067ce"/>
+                                    </g>
+                                </svg>
+                                <span>Voice-Activated Assistants Intergration</span>
+                                <span class="text-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, esse?</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+      </div>
+   </section>
+
+   <!--items section ------->
+    <section class="items__section">
+        <!--item container ------>
+        <div class="items__container">
+            <!--item box ------->
+            <div class="item anim1">
+                <div class="img__container">
+                    <img src="assets/img/img_5.png" alt="">
+                </div>
+                <span class="item_description">Protect Your FieldYard</span>
+                <span class="item__name">Outdoor Camera Pro</span>
+                <a href="" class="btn__primary">Learn more</a>
+            </div>
+            <!--item box ------->
+            <div class="item anim1">
+                <div class="img__container">
+                    <img src="assets/img/img_1.png" alt="">
+                </div>
+                <span class="item_description">Protect Your Room</span>
+                <span class="item__name">Sportlight Camera</span>
+                <a href="" class="btn__primary">Learn more</a>
+            </div>
+            <!--item box ------->
+            <div class="item anim1">
+                <div class="img__container">
+                    <img src="assets/img/img_2.png" alt="">
+                </div>
+                <span class="item_description">Keep Safe Your home</span>
+                <span class="item__name">Indoor Camera</span>
+                <a href="" class="btn__primary">Learn more</a>
+            </div>
+            <!--item box ------->
+            <div class="item anim1">
+                <div class="img__container">
+                    <img src="assets/img/img_7.png" alt="">
+                </div>
+                <span class="item_description">Easy Control</span>
+                <span class="item__name">Premium Controller</span>
+                <a href="" class="btn__primary">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--elevating your home  section  description ------->
+    <section class="elevating">
+        <div class="content__conatiner">
+            <h1 class="section__header translateY">Your Home, your Rules : Smart  Control on Your Fingertips</h1>
+            <p class="translateY">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam blanditiis, expedita quibusdam animi repudiandae enim est dolorum, recusandae officia temporibus iste voluptas!</p>
+            <a href="#!" class="btn__primary translateY">Get Started</a>
+        </div>
+    </section>
+
+
+    <!--testemonials section ------>
+    <div class="testemonials">
+        <h3 class="sub__header translateY">Testemonials</h3>
+        <h1 class="section__header translateY">Client Feedback & Reviews </h1>
+        <div class="ratings translateY">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-half-fill"></i>
+        </div>
+        <div class="polka"></div>
+
+        <div class="silder__container swiper">
+            <div class="swiper-wrapper">
+                 <!-- slider box ----->
+                 <div class="slider__box swiper-slide anim1">
+                    <div class="content__box">
+                        <div class="user__img">
+                            <img src="assets/img/user_2.jpg" alt="">
+                        </div>
+                        <div class="icon__quote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="31.5" viewBox="0 0 36 31.5">
+                                <path id="Icon_awesome-quote-left" data-name="Icon awesome-quote-left" d="M32.625,18H27V13.5A4.5,4.5,0,0,1,31.5,9h.563A1.683,1.683,0,0,0,33.75,7.313V3.938A1.683,1.683,0,0,0,32.063,2.25H31.5A11.247,11.247,0,0,0,20.25,13.5V30.375a3.376,3.376,0,0,0,3.375,3.375h9A3.376,3.376,0,0,0,36,30.375v-9A3.376,3.376,0,0,0,32.625,18Zm-20.25,0H6.75V13.5A4.5,4.5,0,0,1,11.25,9h.563A1.683,1.683,0,0,0,13.5,7.313V3.938A1.683,1.683,0,0,0,11.813,2.25H11.25A11.247,11.247,0,0,0,0,13.5V30.375A3.376,3.376,0,0,0,3.375,33.75h9a3.376,3.376,0,0,0,3.375-3.375v-9A3.376,3.376,0,0,0,12.375,18Z" transform="translate(0 -2.25)"/>
+                              </svg>                          
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores officiis exercitationem culpa? Nemo repudiandae illum mollitia nihil qui maiores.</p>
+                        <span class="user__firstname">Michael</span>
+                        <span class="user__lastanme">Brown</span>
+                    </div>
+                </div>
+                <!-- slider box ----------->
+                 <!-- slider box ----->
+                 <div class="slider__box swiper-slide anim1">
+                    <div class="content__box">
+                        <div class="user__img">
+                            <img src="assets/img/user_1.jpg" alt="">
+                        </div>
+                        <div class="icon__quote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="31.5" viewBox="0 0 36 31.5">
+                                <path id="Icon_awesome-quote-left" data-name="Icon awesome-quote-left" d="M32.625,18H27V13.5A4.5,4.5,0,0,1,31.5,9h.563A1.683,1.683,0,0,0,33.75,7.313V3.938A1.683,1.683,0,0,0,32.063,2.25H31.5A11.247,11.247,0,0,0,20.25,13.5V30.375a3.376,3.376,0,0,0,3.375,3.375h9A3.376,3.376,0,0,0,36,30.375v-9A3.376,3.376,0,0,0,32.625,18Zm-20.25,0H6.75V13.5A4.5,4.5,0,0,1,11.25,9h.563A1.683,1.683,0,0,0,13.5,7.313V3.938A1.683,1.683,0,0,0,11.813,2.25H11.25A11.247,11.247,0,0,0,0,13.5V30.375A3.376,3.376,0,0,0,3.375,33.75h9a3.376,3.376,0,0,0,3.375-3.375v-9A3.376,3.376,0,0,0,12.375,18Z" transform="translate(0 -2.25)"/>
+                              </svg>                          
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores officiis exercitationem culpa? Nemo repudiandae illum mollitia nihil qui maiores.</p>
+                        <span class="user__firstname">Sarah</span>
+                        <span class="user__lastanme">Johnson</span>
+                    </div>
+                </div>
+                <!-- slider box ----->
+                <div class="slider__box swiper-slide anim1">
+                    <div class="content__box">
+                        <div class="user__img">
+                            <img src="assets/img/user_3.jpg" alt="">
+                        </div>
+                        <div class="icon__quote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="31.5" viewBox="0 0 36 31.5">
+                                <path id="Icon_awesome-quote-left" data-name="Icon awesome-quote-left" d="M32.625,18H27V13.5A4.5,4.5,0,0,1,31.5,9h.563A1.683,1.683,0,0,0,33.75,7.313V3.938A1.683,1.683,0,0,0,32.063,2.25H31.5A11.247,11.247,0,0,0,20.25,13.5V30.375a3.376,3.376,0,0,0,3.375,3.375h9A3.376,3.376,0,0,0,36,30.375v-9A3.376,3.376,0,0,0,32.625,18Zm-20.25,0H6.75V13.5A4.5,4.5,0,0,1,11.25,9h.563A1.683,1.683,0,0,0,13.5,7.313V3.938A1.683,1.683,0,0,0,11.813,2.25H11.25A11.247,11.247,0,0,0,0,13.5V30.375A3.376,3.376,0,0,0,3.375,33.75h9a3.376,3.376,0,0,0,3.375-3.375v-9A3.376,3.376,0,0,0,12.375,18Z" transform="translate(0 -2.25)"/>
+                              </svg>                          
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores officiis exercitationem culpa? Nemo repudiandae illum mollitia nihil qui maiores.</p>
+                        <span class="user__firstname">John</span>
+                        <span class="user__lastanme">Smith</span>
+                    </div>
+                </div>
+                   <!-- slider box ----->
+                <div class="slider__box swiper-slide anim1">
+                    <div class="content__box">
+                        <div class="user__img">
+                            <img src="assets/img/user-1.jpg" alt="">
+                        </div>
+                        <div class="icon__quote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="31.5" viewBox="0 0 36 31.5">
+                                <path id="Icon_awesome-quote-left" data-name="Icon awesome-quote-left" d="M32.625,18H27V13.5A4.5,4.5,0,0,1,31.5,9h.563A1.683,1.683,0,0,0,33.75,7.313V3.938A1.683,1.683,0,0,0,32.063,2.25H31.5A11.247,11.247,0,0,0,20.25,13.5V30.375a3.376,3.376,0,0,0,3.375,3.375h9A3.376,3.376,0,0,0,36,30.375v-9A3.376,3.376,0,0,0,32.625,18Zm-20.25,0H6.75V13.5A4.5,4.5,0,0,1,11.25,9h.563A1.683,1.683,0,0,0,13.5,7.313V3.938A1.683,1.683,0,0,0,11.813,2.25H11.25A11.247,11.247,0,0,0,0,13.5V30.375A3.376,3.376,0,0,0,3.375,33.75h9a3.376,3.376,0,0,0,3.375-3.375v-9A3.376,3.376,0,0,0,12.375,18Z" transform="translate(0 -2.25)"/>
+                              </svg>                          
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores officiis exercitationem culpa? Nemo repudiandae illum mollitia nihil qui maiores.</p>
+                        <span class="user__firstname">Emily</span>
+                        <span class="user__lastanme">Chen</span>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+    </div>
+    </div>
+
+    <!--footer --------->
+    <footer>
+        <ul class="footer__content">
+            <li>
+                <h3 class="logo anim1">SyncWave<span>Home</span></h3>
+                <p class="anim2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id error voluptate repudiandae ducimus impedit incidunt assumenda ut quo aperiam maiores. Lorem ipsum.</p>
+                <div class="social__media">
+                    <div class="icon anim2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22.527" height="42.06" viewBox="0 0 22.527 42.06">
+                            <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M22.66,23.659l1.168-7.612h-7.3v-4.94c0-2.082,1.02-4.112,4.291-4.112h3.32V.514A40.492,40.492,0,0,0,18.242,0C12.227,0,8.3,3.646,8.3,10.245v5.8H1.609v7.612H8.3v18.4h8.229v-18.4Z" transform="translate(-1.609)" fill="#fff"/>
+                          </svg>                          
+                    </div>
+                    <div class="icon anim2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+                            <path id="Icon_simple-whatsapp" data-name="Icon simple-whatsapp" d="M26.247,21.573c-.451-.225-2.65-1.3-3.06-1.449s-.709-.225-1.01.225-1.156,1.446-1.416,1.743-.524.315-.969.112a12.174,12.174,0,0,1-3.6-2.227,13.609,13.609,0,0,1-2.49-3.1c-.261-.45-.028-.7.195-.922.2-.2.451-.517.677-.785a3.8,3.8,0,0,0,.446-.744.825.825,0,0,0-.038-.786c-.113-.225-1.008-2.43-1.383-3.309-.36-.876-.731-.765-1.008-.765-.258-.023-.557-.023-.856-.023a1.691,1.691,0,0,0-1.2.538A5.008,5.008,0,0,0,8.967,13.79,8.776,8.776,0,0,0,10.8,18.4c.224.292,3.158,4.792,7.65,6.728,1.071.45,1.905.72,2.556.944a6.206,6.206,0,0,0,2.82.181c.861-.136,2.65-1.082,3.024-2.139a3.713,3.713,0,0,0,.27-2.138c-.111-.2-.405-.315-.855-.517M18.091,32.625h-.024a15.005,15.005,0,0,1-7.583-2.07l-.54-.321L4.32,31.7l1.508-5.468-.359-.562A14.877,14.877,0,0,1,28.639,7.314,14.682,14.682,0,0,1,33,17.8,14.9,14.9,0,0,1,18.1,32.626M30.78,5.174A18.213,18.213,0,0,0,18.067,0,17.835,17.835,0,0,0,2.544,26.757L0,36l9.5-2.478a18.093,18.093,0,0,0,8.565,2.171h.009A17.91,17.91,0,0,0,36,17.849,17.691,17.691,0,0,0,30.757,5.232" fill="#fff"/>
+                          </svg>                          
+                    </div>
+                    <div class="icon anim2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31.5" height="31.5" viewBox="0 0 31.5 31.5">
+                            <path id="Icon_awesome-linkedin" data-name="Icon awesome-linkedin" d="M29.25,2.25H2.243A2.26,2.26,0,0,0,0,4.521V31.479A2.26,2.26,0,0,0,2.243,33.75H29.25a2.266,2.266,0,0,0,2.25-2.271V4.521A2.266,2.266,0,0,0,29.25,2.25Zm-19.73,27H4.852V14.217H9.527V29.25ZM7.186,12.164A2.707,2.707,0,1,1,9.893,9.457a2.708,2.708,0,0,1-2.707,2.707ZM27.021,29.25H22.352V21.938c0-1.744-.035-3.987-2.426-3.987-2.433,0-2.805,1.9-2.805,3.86V29.25H12.452V14.217h4.479V16.27h.063a4.917,4.917,0,0,1,4.423-2.426c4.725,0,5.6,3.115,5.6,7.165Z" transform="translate(0 -2.25)" fill="#fff"/>
+                          </svg>                          
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h3 class="anim1">Service</h3>
+                    <ul class="links">
+                        <li class="anim2"><a href="#!">Home Automation</a></li>
+                        <li class="anim2"><a href="#!">Smart Lighting</a></li>
+                        <li class="anim2"><a href="#!">Voice Assistant Intergration</a></li>
+                        <li class="anim2"><a href="#!">Smart Appliance</a></li>
+                        <li class="anim2"><a href="#!">Home Network Security</a></li>
+                        <li class="anim2"><a href="#!"> Home Office Setup</a></li>
+                    </ul>
+            </li>
+            <li>
+                <h3 class="anim1">Support</h3>
+                <ul class="links">
+                    <li class="anim2"><a href="#!">Help Center</a></li>
+                    <li class="anim2"><a href="#!">Sales Support</a></li>
+                    <li class="anim2"><a href="#!">Technical Support</a></li>
+                    <li class="anim2"><a href="#!">My Account</a></li>
+                    <li class="anim2"><a href="#!">Ticket Support</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3 class="anim1">Quick Links</h3>
+                <ul class="links">
+                    <li class="anim2"><a href="#!">About Us</a></li>
+                    <li class="anim2"><a href="#!">Leadership</a></li>
+                    <li class="anim2"><a href="#!">Careers</a></li>
+                    <li class="anim2"><a href="#!">Articles & News</a></li>
+                    <li class="anim2"><a href="#!">Legal Notice</a></li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+    <div class="copyright translateY ">
+        <span>copyright&copy; by SyncWaveHome 2024</span>
+    </div>
+    <!--SCRIPTS --------->
+    <script src="js/main.js" defer></script>
+    <!--GSAP CDN --------->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CSSRulePlugin.min.js" integrity="sha512-IxxYrSNXnt/RJlxNX40+7BQL88FLqvdpVpuV9AuvpNH/NFP0L8xA8WLxWTXx6PYExB5R/ktQisp6tIrnLn8xvw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</body>
+</html>
